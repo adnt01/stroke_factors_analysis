@@ -34,11 +34,11 @@ Our group chose to use the Stroke Prediction Dataset from Kaggle (https://www.ka
 
 3. Risks or unknowns that you have identified.
 
-Initial exploratory data analysis revealed that the dataset is highly unbalanced. Only 249 observations (~5%) are positive for stroke. Limited positive cases for both training and test dataset.  
-Region: we do not know the geographical location of the individuals surveyed. Results may not generalize well to populations living in a different geographical location. 
-Social Determinants of Health: Data about ethnicity, education level, income levels are not available. These demographic and socioeconomic variables are known to influence stroke risk and health outcomes, and their absence represents a key limitation. Results may not generalize well to a different demographic and socioeconomic group. 
-Missing important medical factors such as cholesterol level and diabetes status (7).  
-Missing data for Body Mass Index for some individuals/observations: Requires imputation to determine the statistical significance and to determine if the variable correlates with other variables. 
+- Initial exploratory data analysis revealed that the dataset is highly unbalanced. Only 249 observations (~5%) are positive for stroke. Limited positive cases for both training and test dataset.  
+- Region: we do not know the geographical location of the individuals surveyed. Results may not generalize well to populations living in a different geographical location. 
+- Social Determinants of Health: Data about ethnicity, education level, income levels are not available. These demographic and socioeconomic variables are known to influence stroke risk and health outcomes, and their absence represents a key limitation. Results may not generalize well to a different demographic and socioeconomic group. 
+- Missing important medical factors such as cholesterol level and diabetes status (7).  
+- Missing data for Body Mass Index for some individuals/observations: Requires imputation to determine the statistical significance and to determine if the variable correlates with other variables. 
 
 4. How you will approach the analysis.
 
@@ -58,8 +58,11 @@ Missing data for Body Mass Index for some individuals/observations: Requires imp
 5. Breakdown of roles/tasks assigned to each team member.
 
 Exploratory data analysis - Aravind Vijayaragavan, Adnan Takash, Naveen Kumar Nair
+
 Data Cleaning - Aravind Vijayaragavan
+
 Data Modeling & Visualization - Adnan Takash, Azadeh Selahvarzi
+
 README documentation, repo structure, code review  - Karen Huang, Yuli Zhang, Naveen Kumar Nair
 
 # References: 
