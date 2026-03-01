@@ -1,14 +1,57 @@
 # stroke_factors_analysis
 Cohot8 - DS3
+##### Goal: Determine top 3 factors - lifestyle or health -  for stroke prediction. 
+
 
 ### Week1 Expectations 
 
 1. The business motivation for your project.
 2. Which dataset you have chosen to use.
 3. Risks or unknowns that you have identified.
-4. How you
-will approach the analysis.
+
+* Initial exploratory data analysis revealed that the dataset is highly unbalanced. Only 249 observations (~5%) are positive for stroke. Limited positive cases for both training and test dataset.  
+* Region: we do not know the geographical location of the individuals surveyed. Results may not generalize well to populations living in a different geographical location. 
+* Ethnicity: we do not know the ethnicity of the individuals surveyed. If all data came from one ethnicity group, results may not generalize well to a different ethnicity group.
+* Time - we do not know the timeline in which the data is collected. Medical definitions and technologies can change over time. 
+* Missing important medical factors such as cholesterol level and diabetes status (7).  
+* Missing data for Body Mass Index for some individuals/observations: requires imputation. 
+
+4. How you will approach the analysis.
+
+* Data exploration with visualizations 
+* Data cleaning which includes imputation for missing values 
+* Data Modelling
+    * Apply logistic regression as baseline model 
+    * Apply random forest classification 
+    * Compare the classification methods based on accuracy 
+    * Determine feature importance
+    * Rank each feature
+* Identity the top three features that provides the best prediction of stroke outcome 
+* Data visualization to show modelling results 
+* Recommend lifestyle changes based on top three features to individuals/healthcare provider/health organizations to reduce stroke likelihood 
+
 5. Breakdown of roles/tasks assigned to each team member.
+
+##### Team Members 
+* Aravind Vijayaragavan
+* Karen Huang
+* Yuli Zhang
+* Azadeh Selahvarzi
+* Adnan Takash
+* Naveen Kumar Nair
+
+Exploratory data analysis - Aravind Vijayaragavan, Adnan Takash
+
+Data Cleaning - Aravind Vijayaragavan
+
+Data Modeling & Visualization - Adnan Takash, Azadeh Selahvarzi
+
+README documentation, repo structure, code review  - Karen Huang, Yuli Zhang, Naveen Kumar Nair
+
+
+# References
+
+7. “Stroke.” Johns Hopkins Medicine, https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke. Accessed 26 February 2026.
 
 ### README REQUIREMENT
 Each project's README should describe the project objective, the final outcome of
