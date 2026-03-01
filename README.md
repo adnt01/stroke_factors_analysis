@@ -1,5 +1,7 @@
 # stroke_factors_analysis
 Cohot8 - DS3
+##### Goal: Determine top 3 factors - lifestyle or health -  for stroke prediction. 
+
 
 ### Week1 Expectations 
 
@@ -43,12 +45,12 @@ Missing data for Body Mass Index for some individuals/observations: Requires imp
 - Data exploration with visualizations 
 - Data cleaning which includes imputation for missing values 
 - Data Modelling
-- Multivariable analysis 
-- Apply logistic regression as baseline model 
-- Apply random forest classification 
-- Compare the classification methods based on accuracy 
-- Determine feature importance
-- Rank each feature
+    - Multivariable analysis 
+    - Apply logistic regression as baseline model 
+    - Apply random forest classification 
+    - Compare the classification methods based on accuracy 
+    - Determine feature importance
+    - Rank each feature
 - Identity the top three features that provides the best prediction of stroke outcome 
 - Data visualization to show modelling results 
 - Recommend lifestyle changes based on top three features to individuals/healthcare provider/health organizations to reduce the prevalence of stroke cases
@@ -60,7 +62,7 @@ Data Cleaning - Aravind Vijayaragavan
 Data Modeling & Visualization - Adnan Takash, Azadeh Selahvarzi
 README documentation, repo structure, code review  - Karen Huang, Yuli Zhang, Naveen Kumar Nair
 
-References: 
+# References: 
 
 1. GBD 2021 Stroke Risk Factor Collaborators. Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. The Lancet Neurology. 18 September 2024. doi: 10.1016/S1474-4422(24)00369-7.
 2. Strilciuc S, et.al. The economic burden of stroke: a systematic review of cost of illness studies. J Med Life. 2021 Sep-Oct;14(5):606–619. doi: 10.25122/jml-2021-0361.
