@@ -17,7 +17,37 @@ Cohot8 - DS3
 * Missing data for Body Mass Index for some individuals/observations: requires imputation. 
 
 4. How you will approach the analysis.
+
+* Data exploration with visualizations 
+* Data cleaning which includes imputation for missing values 
+* Data Modelling
+    * Apply logistic regression as baseline model 
+    * Apply random forest classification 
+    * Compare the classification methods based on accuracy 
+    * Determine feature importance
+    * Rank each feature
+* Identity the top three features that provides the best prediction of stroke outcome 
+* Data visualization to show modelling results 
+* Recommend lifestyle changes based on top three features to individuals/healthcare provider/health organizations to reduce stroke likelihood 
+
 5. Breakdown of roles/tasks assigned to each team member.
+
+##### Team Members 
+* Aravind Vijayaragavan
+* Karen Huang
+* Yuli Zhang
+* Azadeh Selahvarzi
+* Adnan Takash
+* Naveen Kumar Nair
+
+Exploratory data analysis - Aravind Vijayaragavan, Adnan Takash
+
+Data Cleaning - Aravind Vijayaragavan
+
+Data Modeling & Visualization - Adnan Takash, Azadeh Selahvarzi
+
+README documentation, repo structure, code review  - Karen Huang, Yuli Zhang, Naveen Kumar Nair
+
 
 # References
 
