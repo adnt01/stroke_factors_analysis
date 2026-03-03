@@ -22,5 +22,6 @@ dependencies = [
     "yfinance>=0.2.65",
     "imbalanced-learn",
     "shap",
-    "xgboost"
+    "xgboost",
+    "catboost"
 ]
