@@ -1,0 +1,30 @@
+FORMAT:
+
+1. Introduction and Business Case
+
+2. Exploration: What did we find in the data?
+
+Preliminary data exploration was conducted through Python, specifically the pandas and MICE imputation libraries for datset cleaning, and the Random Forest and XGBoost classifier algorithms (alongside other tree-based prediction algorithms) to gauge stroke prediction accuracy based on given features.
+
+The first observation made was that the dataset itself was highly unbalanced; roughly 5% of the dataset consisted of confirmed stroke victims (250 entries out of 5110). This carries with it the consideration that any feature shared amongst these individuals run the risk of being overweighted in any prediction process. For example, if half of all available stroke victims fell under a BMI categorized as 'obese', then an algorithm, unless aggressively corrected for, would weight obesity as a risk factor for strokes much higher than other factors, even if obesity is common in the non-stroke population as well. This can be corrected for by using multiple classification models and comparing results, in order to not accidentally miss any model maladaptations or genuine new findings.
+
+The next thing we noticed during data exploration was that a number of BMI values were missing. This could be easily accounted for by more basic imputation methods (mean or mode imputation), but we also noticed that 40 of the 250 stroke victim entries also had missing BMI values. With nearly a sixth of the BMI values of our most important demographic being missing, we'd need a more robust and careful imputation method to fill in the values, for fear of accidentally skewing the results of our target population. We therefore used MICE imputation to fill in the missing values, because it better takes into account relationships between variables, instead of just mathematical single-point observations.
+
+Subsequently, the main concern was converting categorical variables (such as marriage status, a yes/no question) into numerical values for better processing in classification models, which typically require only numerical inputs. For this, we implemented a one-hot encoder to create separate 1/0 binary value columns for each possible categorical choice. This, effectively, let us treat every feature present as a numerical feature. Examples include entries like "yes_married", "no_married", "yes_hypertension", "no_hypertension", among others.
+
+Some features, when examined further, offered insights into the nature of the dataset itself. One such example is the "work_type" column, which allows an entry to specify if the person recorded has a private or government job, is a child, or has never worked. Given that this is an international dataset, this makes correlation of age and work unreliable in some edge cases, as the dataset itself does not differentiate the country of origin of any one person. It is, therefore, possible to get children in the 13-15 year old range that can be classified as either "a child", "never worked" or has a work designation of some kind, due to differing labor laws in different countries. What this meant for us, and further data analysis, is that the correlation between work status and stroke incidence should be examined more closely for any misattributions of value. We later found out that work status had very little bearing on stroke incidence by itself, after Random Forest and XGBoost Classification.
+
+3. Data-derived Findings
+
+4. Connecting with the Real World
+4.1. What does the data fail to cover? What are its limitations?
+
+A key limitation of this data is that it is a snapshot in time of each person recorded, and not a longitudinal look at health and lifestyle changes. A person could be recorded as having a BMI of 36, or having a government job, but it offers no insight into how long they have held this status. The dataset itself gives us no avenue to explore if the effects of high BMI manifest during the buildup to such a value, or if only sustained existence at that level for a given number of years correlates with increased stroke incidence. Health, as we experience it in day-to-day life, is a continuous variable, and there are certain insights that cannot be fully captured by just looking at a snapshot. That is not to say that all such observations are useless, however -  a high BMI or blood glucose level, even if only a single incidence of such, speaks to further lifestyle decisions (if intentional) and health circumstances (if not) that can be addressed even without the full picture of an individual's health progression.
+
+Another limitation, mentioned before, is that we used a World Health Organization sourced data file, with people around the world as part of the dataset. This means that things like socioeconomic status, specific food availabilities, genetic markers and disease susceptibilities are deliberately not part of the dataset, and cannot be used to make insights in the interest of neutrality. The main issue here is that advice made from extrapolation of this data must be similarly general, and thus modified further to meet the specific needs of someone from a country or life situation that does not fall within the generalizations made by this dataset. For example, if our data were to suggest that hypertension incidence increases the likelihood of a stroke, and a certain population has a genetic susceptibility to hypertension, then any stroke-reduction advice must put increased weight on hypertension prevention for that population. Similarly, if our analysis were to suggest that people in government job positions had a slightly lower risk of strokes, and a person lives somewhere such opportunities are sparse, then that minor insight becomes largely useless to them. Our conclusions, therefore, should not be taken as a one-size-fits-all approach, and must be re-examined against the health realities of its target population before implementation.
+
+4.2. How does this affect the implementation of our business case?
+
+5. Holistic Conclusion to Provide to Stakeholders
+
+6. Ideas for Future Analyses
