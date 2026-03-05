@@ -45,3 +45,11 @@ The business case implementation we'd like to offer as a solution is NOT an inst
 - Make changes to an individual's program plan based on rolling performance metrics (weight, age, BMI, blood glucose, reported sleep and stress levels, etc)
 
 The easiest way to implement this is to use existing infrastructure: things like Apple Watch fitness apps, Fitbits, or other easy-to-access apps make it easy for the participant to record their results without inconveniencing them, and easy for program delivering personnel and researchers to tune an app to better present the progress made by a participant. A program we theoretically make would have to hook into that infrastructure, and provide an easy-to-use and habit-forming experience, to motivate people to stick with it.
+
+For the population that does not interact with the healthcare system for early detection, such as younger age groups with stroke risk factors, people without a primary care physician, or people with many Social Determinants of Health (SDOH) barriers, digital health tools and community-based programs can help fill the gap.
+
+Digital health tools and campaigns allow self‑monitoring and provide education of risk factors without needing a doctor’s visit. The Stroke Riskometer is a digital health app that can assess an individual's risk of a stroke in the next five or ten years and provide information about how to reduce the risk.
+
+Community programs such as nutrition classes, subsidized fitness programs, walking groups, culturally tailored cooking workshops can provide accessible, low‑cost ways to build and retain habits that lower risk factors of stroke. Community programs also helps outreach to people impacted by SDOH so people facing food insecurity, unstable housing, or low income are not excluded from prevention.
+
+Through incremental lifestyle changes, continuous monitoring, and incentive-based engagement, the program builds sustainable habits that reduce stroke risk over time while offering a scalable, equitable model for population health improvement.
