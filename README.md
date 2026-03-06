@@ -101,3 +101,7 @@ In addition, you should be considering the following (depending on your stream):
 * What best practices can you follow to promote inclusivity and diversity in our visualization design?
 * How can you ensure that your visualization accurately represents the underlying data without misleading or misinterpreting information?
 * Are there any privacy concerns or sensitive information that need to be addressed in your visualization?
+
+
+LINKS FOR PROJECT REFLECTION:
+Aravind: https://streamable.com/rjpu9g
