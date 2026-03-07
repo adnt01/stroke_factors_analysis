@@ -41,8 +41,148 @@ Python
 - SKLearn: regression analysis
 
 ## Data Cleaning 
+Objective: check for missing values, categorical variables for transformation, and summarize general statistics for the dataset
+
+Method:
+- info() was used to see all the features and check for missing values 
+- value_counts() was used to count the frequency of unique values for each feature
+- describe() was used to produce a general statistics table for numerical variable 
+
+Results: 
+- Missing values for BMI and Unknown values for Smoking Status
+- Five categorical variables: ["gender", "ever_married", "work_type", "Residence_type", "smoking_status"]
+- Summary statistics shown below:
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>age</th>
+      <th>hypertension</th>
+      <th>heart_disease</th>
+      <th>avg_glucose_level</th>
+      <th>bmi</th>
+      <th>stroke</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>5110.000000</td>
+      <td>5110.000000</td>
+      <td>5110.000000</td>
+      <td>5110.000000</td>
+      <td>5110.000000</td>
+      <td>4909.000000</td>
+      <td>5110.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>36517.829354</td>
+      <td>43.226614</td>
+      <td>0.097456</td>
+      <td>0.054012</td>
+      <td>106.147677</td>
+      <td>28.893237</td>
+      <td>0.048728</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>21161.721625</td>
+      <td>22.612647</td>
+      <td>0.296607</td>
+      <td>0.226063</td>
+      <td>45.283560</td>
+      <td>7.854067</td>
+      <td>0.215320</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>67.000000</td>
+      <td>0.080000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>55.120000</td>
+      <td>10.300000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>17741.250000</td>
+      <td>25.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>77.245000</td>
+      <td>23.500000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>36932.000000</td>
+      <td>45.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>91.885000</td>
+      <td>28.100000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>54682.000000</td>
+      <td>61.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>114.090000</td>
+      <td>33.100000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>72940.000000</td>
+      <td>82.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>271.740000</td>
+      <td>97.600000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ## Exploratory Analysis
+Objective: understand and visualize the data, explore correlations <add>
+
+Method: 
+- pairplot
+- visualize correlation matrix with heatmap 
+- countplot
+- histplot
+- violinplot
+- boxplot 
+
+- Visualizing stroke count 
+![count plot](notebooks/images/count_stroke.png)
+- Using heat map to understand feature correlation
+![heat map](notebooks/images/correlation_heatmap_num_var.png)
+- Using pairplot to understand the correlation between age, bmi, avg glucose level and stroke
+![pair plot](notebooks/images/pairplot_age_bmi_gluc.png)
+
+Results:
 
 ## Regression and Classification Modelling 
 
