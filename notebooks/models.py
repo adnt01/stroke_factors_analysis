@@ -51,6 +51,18 @@ def plot_shap_by_confusion_groups(
     if len(shap_values.values.shape) == 3:
         shap_values = shap_values[:, :, class_index]
 
+    plt.figure()
+    shap.plots.beeswarm(shap_values, max_display=max_display, show=False)
+    plt.title(f"{model_name} — Beeswarm Observations")
+    plt.savefig(f"images/{model_name}_Beeswarm.png", bbox_inches="tight")
+    plt.show()
+    
+    plt.figure()
+    shap.plots.bar(shap_values, max_display=max_display, show=False)
+    plt.title(f"{model_name} — Bar Observations")
+    plt.savefig(f"images/{model_name}_Bar.png", bbox_inches="tight")
+    plt.show()
+
     for name, idx in groups.items():
         print(f"\n===== {name} =====")
 
