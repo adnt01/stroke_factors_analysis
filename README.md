@@ -1,5 +1,13 @@
-# stroke_factors_analysis
-Cohort8 - DS3
+# Stroke Factors Analysis
+Cohort8 - Team: DS3
+
+#### Members
+- Adnan Takash
+- Aravind Vijayaragavan
+- Azadeh Selahvarzi
+- Karen Huang
+- Naveen Kumar Nair
+- Yuli Zhang
 
 #### Goal: Determine top 3 factors - lifestyle or health -  for stroke prediction. 
 
