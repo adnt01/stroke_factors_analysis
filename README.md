@@ -188,7 +188,36 @@ Results:
 
 ## Conclusions and Discussions and Limitations 
 
+In conclusion, our analysis identified older age, BMI, and blood glucose levels as the three primary risk factors for stroke. These factors do not exist independently; they influence one another and are strongly connected to long-term lifestyle habits. Since stroke risk develops gradually over time, effective prevention requires long-term behavioral changes rather than quick solutions.
+
+To address this, we propose a habit-forming prevention program focused on individuals who are approaching higher stroke risk, including adults starting around age 30, rather than only targeting people already in high-risk age groups. The program would begin with short-term tracking of daily meals and lifestyle patterns to better understand participants’ routines and constraints. From there, it would encourage gradual improvements in diet, physical activity, and overall health habits, making the changes manageable and sustainable. Progress would be monitored through metrics such as weight, BMI, blood glucose levels, sleep, and stress, with incentives built in to encourage continued participation.
+
+Implementation could rely on existing digital health infrastructure, such as wearable fitness devices and mobile health apps, which make it easy for participants to track behaviors and for program organizers to monitor progress. These tools would help provide feedback and maintain engagement while minimizing inconvenience for users.
+
+In addition, digital health tools and community-based programs could help reach populations that may not regularly interact with the healthcare system, including younger individuals, people without a primary care physician, or those affected by social determinants of health. Apps that assess stroke risk and community initiatives like nutrition classes, fitness programs, and culturally tailored workshops could provide accessible ways to promote healthier habits.
+
+Overall, the program focuses on incremental lifestyle changes, continuous monitoring, and supportive incentives to build sustainable habits that reduce stroke risk over time while promoting equitable access to prevention strategies.
+
+One limitation of this dataset is that it provides only a snapshot in time of each individual rather than tracking health changes over time. Because it is cross-sectional, we cannot determine how long someone has had risk factors such as a high BMI or elevated blood glucose levels. This makes it difficult to understand whether stroke risk is influenced by short-term measurements or long-term exposure to these conditions, since health outcomes often develop gradually over many years.
+
+Another limitation involves the dataset’s strongest predictors of stroke—age, BMI, and blood glucose—which include both modifiable and non-modifiable factors. Age will always increase and cannot be changed, while BMI and glucose levels can fluctuate depending on lifestyle, environment, and access to healthcare. Since the data captures only one moment in time, it is difficult to determine whether stroke risk is driven mainly by aging, by long-term lifestyle factors, or by the interaction between the two.
+
+Finally, the dataset comes from global World Health Organization data, meaning it intentionally excludes details such as socioeconomic status, genetics, and regional environmental differences. As a result, any conclusions drawn from the analysis must remain generalized and may not fully apply to specific populations or local contexts, where these additional factors could significantly influence stroke risk.
+
+Ideas for Future Analyses: 
+
+One possible future analysis would be to further explore interactions between the key predictors identified in our study. While our analysis identified these as the strongest individual predictors of stroke, additional work could examine how combinations of these variables influence risk, such as whether individuals with both high BMI and high glucose levels experience a disproportionately higher stroke risk compared to those with only one elevated factor.
+
+Another direction would be to perform subgroup analyses across age categories and threshold effects within the dataset. For example, researchers could examine whether BMI or blood glucose plays a stronger role in predicting stroke within different age groups. This could help determine whether certain risk factors become more influential as people age.
+Future analyses could examine specific cutoff points to identify levels at which stroke risk begins to increase significantly.
+
+These analyses would help deepen the understanding of stroke risk patterns using the same dataset while providing more detailed insights into how key variables interact and influence outcomes.
+
+
 ## Team Videos 
+
+- Aravind: https://streamable.com/rjpu9g
+- [Karen Huang](https://drive.google.com/file/d/16vHZsve5boisCHrsl_glS09IfZ0HdWHR/view?usp=sharing)
 
 ## References 
 1. GBD 2021 Stroke Risk Factor Collaborators. Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. The Lancet Neurology. 18 September 2024. doi: 10.1016/S1474-4422(24)00369-7.
@@ -272,36 +301,3 @@ README documentation, repo structure, code review  - Karen Huang, Yuli Zhang, Na
 7. “Stroke.” Johns Hopkins Medicine, https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke. Accessed 26 February 2026.
 
 
-### README REQUIREMENT
-The README should be clear, well-written,
-and explain the dataset, findings, and methodology. The project should be easy to
-understand for both technical and non-technical reviewers.
-
-Each project's README should describe the project objective, the final outcome of
-the project, the key business takeaways, and describe your team's approach to
-working collaboratively.
-
-### Guiding Questions
-
-* Who is the intended audience for your project?
-* What is the question you will answer with your analysis?
-* What are the key variables and attributes in your dataset?
-* Do you need to clean your data, and if so what is the best strategy?
-* How can you explore the relationships between different variables?
-* What types of patterns or trends are in your data?
-* Are there any specific libraries or frameworks that are well-suited to your project requirements?
-
-In addition, you should be considering the following (depending on your stream):
-
-**Data Science Guiding Questions**
-
-* How can you tailor the visualizations to effectively communicate with your audience?
-* What type of visualization best suits your data and objectives (e.g., bar chart, scatter plot, heatmap)?
-* How can you iterate on your design to address feedback and make improvements?
-* What best practices can you follow to promote inclusivity and diversity in our visualization design?
-* How can you ensure that your visualization accurately represents the underlying data without misleading or misinterpreting information?
-* Are there any privacy concerns or sensitive information that need to be addressed in your visualization?
-
-
-LINKS FOR PROJECT REFLECTION:
-Aravind: https://streamable.com/rjpu9g
