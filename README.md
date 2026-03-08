@@ -65,19 +65,6 @@ Results:
 - Five categorical variables: ["gender", "ever_married", "work_type", "Residence_type", "smoking_status"]
 - Summary statistics shown below:
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -249,6 +236,17 @@ Overall, greater confidence is placed in the Random Forest and XGBoost models be
 ![shap beeswarm plot](notebooks/images/RandomForestClassifier_Beeswarm.png)
 
 Different machine learning models, Random Forest, XGBoost, and Logistic Regression, produced varying feature importance rankings because each model captures relationships in the data differently. Therefore, clinical domain knowledge from medical experts should be considered when interpreting these results to ensure that the identified important features are consistent with medical understanding, clinically meaningful, and aligned with  knowledge about stroke risk factors.
+
+## Future Enhancements
+
+Due to time for the project is only 2 weeks. For future analyses, we could:
+- Explore more classification models tailored for highly imbalanced data.
+- Improve data quality through advanced preprocessing, like removing outliers and handling missing values in different ways.
+- Apply dimensionality reduction techniques like PCA to reduce noise and speed up training.
+- Experiment with additional hyperparameters to further optimize predictions.
+- Perform feature engineering to create new features based on domain knowledge.
+- Address class imbalance using data sampling techniques like SMOTE, ADASYN, and Random Undersampling.
+
 
 ## Conclusion and Discussion 
 
