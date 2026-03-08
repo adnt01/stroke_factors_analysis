@@ -199,9 +199,9 @@ A more detailed analysis of these models and their performance can be found in t
 - Train the models using the training dataset.
 - Generate predictions on the test dataset.
 - Evaluate model performance using the PR-AUC metric at a specified recall value of 0.8, and determine the optimal classification threshold.
-![confusion plot](images/RandomForest_confusion_matrix.png)
+![confusion plot](notebooks/images/RandomForest_confusion_matrix.png)
 - Extract feature importance from the model and plot it as a barplot in order of importance to the stroke prediction.
-![bar plot](images/RandomForest_top_10_most_important_features.png)
+![bar plot](notebooks/images/RandomForest_top_10_most_important_features.png)
 
 ## Summary of Classification Modeling
 
@@ -217,8 +217,8 @@ The SHAP bar and beeswarm plots show that age, average glucose level, and BMI ar
 
 Overall, greater confidence is placed in the Random Forest and XGBoost models because the dataset is highly imbalanced (about 5% stroke cases), and tree-based models generally perform better than Logistic Regression on imbalanced datasets. SHAP explanations also highlight which features increase or decrease the predicted stroke risk for individual patients.
 
-![shap bar plot](images/RandomForestClassifier_Bar.png)
-![shap beeswarm plot](images/RandomForestClassifier_Beeswarm.png)
+![shap bar plot](notebooks/images/RandomForestClassifier_Bar.png)
+![shap beeswarm plot](notebooks/images/RandomForestClassifier_Beeswarm.png)
 
 Different machine learning models, Random Forest, XGBoost, and Logistic Regression, produced varying feature importance rankings because each model captures relationships in the data differently. Therefore, clinical domain knowledge from medical experts should be considered when interpreting these results to ensure that the identified important features are consistent with medical understanding, clinically meaningful, and aligned with  knowledge about stroke risk factors.
 
