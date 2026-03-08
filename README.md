@@ -184,7 +184,43 @@ Method:
 
 Results:
 
-## Regression and Classification Modelling 
+## Regression and Classification Modelling  
+
+Our project aims to identify the top three factors contributing to stroke occurrence among patients, represented by the variable stroke. Exploratory Data Analysis (EDA) suggests that age, average glucose level, and BMI are the most influential factors associated with stroke risk.
+
+To further validate these insights, we experimented with three classification models: Random Forest, XGBoost, and Logistic Regression.
+
+Random Forest was selected because it is simple to implement, easy to interpret, robust against overfitting, and relatively straightforward to tune. XGBoost was also considered because it typically provides higher predictive accuracy, faster performance through optimization techniques, and effective handling of missing values. Logistic Regression was included as well since it is well-suited for binary classification problems and offers strong interpretability.
+
+A more detailed analysis of these models and their performance can be found in the accompanying file [model README](../README.md)
+
+- Encode the categorical variable (BMI) using an appropriate encoder.
+- Split the dataset into training and testing sets.
+- Train the models using the training dataset.
+- Generate predictions on the test dataset.
+- Evaluate model performance using the PR-AUC metric at a specified recall value of 0.8, and determine the optimal classification threshold.
+![confusion plot](images/RandomForest_confusion_matrix.png)
+- Extract feature importance from the model and plot it as a barplot in order of importance to the stroke prediction.
+![bar plot](images/RandomForest_top_10_most_important_features.png)
+
+## Summary of Classification Modeling
+
+Three models were developed to predict stroke risk in patients: Logistic Regression, Random Forest, and XGBoost. Across all models, age was identified as the most important predictor of stroke.
+
+For the Random Forest model, the top three features are age, average glucose level, and BMI.
+For XGBoost, the most important features are age, gender, and hypertension.
+For Logistic Regression, the key predictors are age, work type (children), and smoking status (smokers). The consistent ranking of age as the top factor across all models highlights its strong association with stroke risk.
+
+To interpret the model predictions, SHAP (SHapley Additive exPlanations) was used for all three models. SHAP analysis helps explain how individual features contribute to the prediction results.
+
+The SHAP bar and beeswarm plots show that age, average glucose level, and BMI are the most influential features for both Random Forest and XGBoost, indicating strong agreement between the two models. For Logistic Regression, the top SHAP features are age, work type (children), and work type (self-employed).
+
+Overall, greater confidence is placed in the Random Forest and XGBoost models because the dataset is highly imbalanced (about 5% stroke cases), and tree-based models generally perform better than Logistic Regression on imbalanced datasets. SHAP explanations also highlight which features increase or decrease the predicted stroke risk for individual patients.
+
+![shap bar plot](images/RandomForestClassifier_Bar.png)
+![shap beeswarm plot](images/RandomForestClassifier_Beeswarm.png)
+
+Different machine learning models, Random Forest, XGBoost, and Logistic Regression, produced varying feature importance rankings because each model captures relationships in the data differently. Therefore, clinical domain knowledge from medical experts should be considered when interpreting these results to ensure that the identified important features are consistent with medical understanding, clinically meaningful, and aligned with  knowledge about stroke risk factors.
 
 ## Conclusions and Discussions and Limitations 
 
