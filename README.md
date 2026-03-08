@@ -165,24 +165,33 @@ Results:
 </div>
 
 ## Exploratory Analysis
-Objective: understand and visualize the data, explore correlations <add>
+Objective: understand and visualize the data, explore outliers and correlations, and spot patterns.
 
 Method: 
-- pairplot
-- visualize correlation matrix with heatmap 
+<!-- pairplot
+- visualize correlation matrix with heat map 
 - countplot
 - histplot
 - violinplot
-- boxplot 
+- boxplot  -->
 
-- Visualizing stroke count 
+- Visualize the target variable, stroke and showing that the dataset is highly imbalanced (5% positive class)
 ![count plot](notebooks/images/count_stroke.png)
-- Using heat map to understand feature correlation
+
+- Use heat map to visualize correlation for numerical variables 
+- Age has highest correlation (0.25) with stroke occurance 
 ![heat map](notebooks/images/correlation_heatmap_num_var.png)
-- Using pairplot to understand the correlation between age, bmi, avg glucose level and stroke
+
+- Use histogram / kernel density estimate (KDE) plot to visualize age distribution 
+- Show stroke occurance tend to occur in older people
+![hist](notebooks/images/hist_age-dist_stroke.png)
+
+- Use pairplot to understand the correlation between age, bmi, avg glucose level and stroke
 ![pair plot](notebooks/images/pairplot_age_bmi_gluc.png)
 
 Results:
+- highly unbalanced dataset (5% positive class)
+- identified some numerical features (age, hypertension, avg glucose level) correlated with stroke
 
 ## Regression and Classification Modelling 
 
