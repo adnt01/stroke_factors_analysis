@@ -21,7 +21,11 @@ dependencies = [
     "utils>=1.0.2",
     "yfinance>=0.2.65",
     "imbalanced-learn",
-    "shap",
+    "numba>=0.57",
+    "llvmlite>=0.40",
+    "shap>=0.51.0",
+    "pyampute",
     "xgboost",
-    "catboost"
+    "catboost",
+    "lightgbm"
 ]
