@@ -192,7 +192,7 @@ To further validate these insights, we experimented with three classification mo
 
 Random Forest was selected because it is simple to implement, easy to interpret, robust against overfitting, and relatively straightforward to tune. XGBoost was also considered because it typically provides higher predictive accuracy, faster performance through optimization techniques, and effective handling of missing values. Logistic Regression was included as well since it is well-suited for binary classification problems and offers strong interpretability.
 
-A more detailed analysis of these models and their performance can be found in the accompanying file [model README](../README.md)
+A more detailed analysis of these models and their performance can be found in the accompanying file [model README](./notebooks/README.md)
 
 - Encode the categorical variable (BMI) using an appropriate encoder.
 - Split the dataset into training and testing sets.
