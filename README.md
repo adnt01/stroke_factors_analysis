@@ -290,6 +290,7 @@ These analyses would help deepen the understanding of stroke risk patterns using
 
 - Aravind: https://streamable.com/rjpu9g
 - [Karen Huang](https://drive.google.com/file/d/16vHZsve5boisCHrsl_glS09IfZ0HdWHR/view?usp=sharing)
+- [Naveen K Nair](https://streamable.com/cutcut) 
 
 ## References 
 1. GBD 2021 Stroke Risk Factor Collaborators. Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. The Lancet Neurology. 18 September 2024. doi: 10.1016/S1474-4422(24)00369-7.
