@@ -237,7 +237,7 @@ Overall, greater confidence is placed in the Random Forest and XGBoost models be
 
 Different machine learning models, Random Forest, XGBoost, and Logistic Regression, produced varying feature importance rankings because each model captures relationships in the data differently. Therefore, clinical domain knowledge from medical experts should be considered when interpreting these results to ensure that the identified important features are consistent with medical understanding, clinically meaningful, and aligned with  knowledge about stroke risk factors.
 
-## Future Enahancements
+## Future Enhancements
 
 Due to time for the project is only 2 weeks. For future analyses, we could:
 - Explore more classification models tailored for highly imbalanced data.
