@@ -207,7 +207,7 @@ Results:
 
 ### Risks or Unknowns 
 
-- Initial exploratory data analysis revealed that the dataset is highly unbalanced. Only 249 observations (~5%) are positive for stroke. Limited positive cases for both training and test dataset.  
+- Limited positive cases for both training and test dataset.  
 - Region: we do not know the geographical location of the individuals surveyed. Results may not generalize well to populations living in a different geographical location. 
 - Social Determinants of Health: Data about ethnicity, education level, income levels are not available. These demographic and socioeconomic variables are known to influence stroke risk and health outcomes, and their absence represents a key limitation. Results may not generalize well to a different demographic and socioeconomic group. 
 - Missing important medical factors such as cholesterol level and diabetes status (7). 
