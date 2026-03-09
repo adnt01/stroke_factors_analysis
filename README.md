@@ -287,7 +287,7 @@ These analyses would help deepen the understanding of stroke risk patterns using
 
 
 ## Team Videos 
-
+- [Adnan Takash](https://drive.google.com/file/d/1Syay6hmz1S7GJFFuBrsFKg8lX9Wc87cY/view?usp=vids_web)
 - Aravind: https://streamable.com/rjpu9g
 - [Karen Huang](https://drive.google.com/file/d/16vHZsve5boisCHrsl_glS09IfZ0HdWHR/view?usp=sharing)
 - [Naveen K Nair](https://streamable.com/cutcut) 
