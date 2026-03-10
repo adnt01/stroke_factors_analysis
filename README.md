@@ -292,6 +292,7 @@ These analyses would help deepen the understanding of stroke risk patterns using
 - [Karen Huang](https://drive.google.com/file/d/16vHZsve5boisCHrsl_glS09IfZ0HdWHR/view?usp=sharing)
 - [Naveen K Nair](https://streamable.com/cutcut) 
 - [Yuli Zhang](https://drive.google.com/file/d/17TokigScW8LR8JG6w6FWjUPY4cVjETHT/view?usp=sharing)
+- [Azadeh Selahvarzi](https://youtu.be/sHHkOW11EbY)
 
 ## References 
 1. GBD 2021 Stroke Risk Factor Collaborators. Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. The Lancet Neurology. 18 September 2024. doi: 10.1016/S1474-4422(24)00369-7.
@@ -300,4 +301,5 @@ These analyses would help deepen the understanding of stroke risk patterns using
 4. Rajabpour M, et. al. Perceived need to prevent stroke readmission: A qualitative study from the perspective of stroke patients and healthcare professionals. J Educ Health Promot. 2025 Aug 29;14:335. doi: 10.4103/jehp.jehp_854_24. PMID: 40979314; PMCID: PMC12448509.
 5. Elamy, A. H., Shuaib, A., Carriere, K. C., & Jeerakathil, T. (2020). Common Comorbidities of Stroke in the Canadian Population. The Canadian journal of neurological sciences. Le journal canadien des sciences neurologiques, 47(3), 314–319. https://doi.org/10.1017/cjn.2020.17
 6. Vyas, M. V., Fang, J., de Oliveira, C., Austin, P. C., Yu, A. Y. X., & Kapral, M. K. (2023). Attributable Costs of Stroke in Ontario, Canada and Their Variation by Stroke Type and Social Determinants of Health. Stroke, 54(11), 2824–2831. https://doi.org/10.1161/STROKEAHA.123.043369
+
 7. “Stroke.” Johns Hopkins Medicine, https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke. Accessed 26 February 2026.
